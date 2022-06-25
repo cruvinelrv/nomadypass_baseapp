@@ -9,6 +9,16 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   @override
+  void didChangeDependencies() {
+    // ignore: avoid_print
+    print('Olha só');
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      Navigator.of(context).pushReplacementNamed('/landing');
+    });
+    super.didChangeDependencies();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return const Center(
       child: CircularProgressIndicator(strokeWidth: 4),
