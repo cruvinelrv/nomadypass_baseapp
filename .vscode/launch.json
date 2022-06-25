@@ -5,18 +5,58 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "nomadypass",
+            "name": "nomadypass_baseapp",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "nomadypass (profile mode)",
+            "name": "nomadypass_baseapp (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "nomadypass (release mode)",
+            "name": "nomadypass_baseapp (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "dependencies",
+            "cwd": "packages\\dependencies",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dependencies (profile mode)",
+            "cwd": "packages\\dependencies",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dependencies (release mode)",
+            "cwd": "packages\\dependencies",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "design_system",
+            "cwd": "packages\\design_system",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "design_system (profile mode)",
+            "cwd": "packages\\design_system",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "design_system (release mode)",
+            "cwd": "packages\\design_system",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
